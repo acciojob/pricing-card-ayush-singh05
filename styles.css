@@ -1,1 +1,63 @@
 /*  your css code here. If applicable */
+* {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+    .main{
+        display: grid;
+        justify-content: center;
+    }
+    .container {
+        min-width: 250px;
+        width: 300px;
+
+        margin: 10px;
+        background-color: #ffff;
+        box-shadow:0 0 15px 2px #d6d0d0;
+       
+    
+
+    }
+
+    .container .card-image img {
+        width: 200px;
+    }
+
+    .card-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 2px;
+        padding: 10px;
+    }
+
+    .card-desc {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .card-desc p {
+
+        font-size: 1.2rem;
+        font-weight: 600;
+        margin: auto;
+        margin: 5px 0px;
+    }
+
+    .card-desc:last-child {
+        margin: 0px 26px;
+    }
+
+    button {
+        margin: 5px 0px;
+        background-color: red;
+        padding: 15px;
+        color: white;
+        font-size: 1.8rem;
+        font-weight: 500;
+        border: none;
+        border-radius: 8px;
+    }
